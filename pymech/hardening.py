@@ -5,9 +5,7 @@ import numpy as np
 
 
 class Hockett(object):
-    r"""hardening hockett
-
-        .. inheritance-diagram:: dynapy.mech.hardening.Hockett
+    r"""hardening hockett-sherby
 
         name
             "hockett"
