@@ -1,0 +1,14 @@
+{
+  "plugins": [
+  "-code-highlighter",
+  "youtube",
+  "katex",
+  "-disqus"
+  ],
+  "pluginsConfig": {
+  "-disqus": {
+  "shortName": "Mech",
+  "useIdentifier": false
+  }
+  }
+}
