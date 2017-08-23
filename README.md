@@ -22,3 +22,37 @@ $$
 
 ![](/assets/CF2PK4hWMAE4Jsv.png)
 
+```
+  "plugins": ["uml"]
+  
+  
+```
+
+    ```uml
+
+    @startuml
+
+        Class Stage
+        Class Timeout {
+            +constructor:function(cfg)
+            +timeout:function(ctx)
+            +overdue:function(ctx)
+            +stage: Stage
+        }
+         Stage 
+    <
+    |-- Timeout
+
+    @enduml
+    ```
+
+
+
+
+
+
+
+
+
+
+
