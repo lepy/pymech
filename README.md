@@ -26,5 +26,18 @@ $$
 This is a diagram:
 ```
 
+```
+This is a diagram:
+```
 
+```
+
+{% plantuml %}
+Bob-
+>
+Alice : hello
+{% endplantuml %}
+```
+
+The plugin will replace the`{% plantuml %}`by SVG images \(and PNG images for ebook output\).
 
