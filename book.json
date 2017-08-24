@@ -4,7 +4,8 @@
   "youtube",
   "katex",
   "-disqus",
-  "puml"
+  "puml",
+  "mermaid-atom-mden"
   ],
   "pluginsConfig": {
   "-disqus": {
