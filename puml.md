@@ -1,7 +1,5 @@
 [https://github.com/GitbookIO/plugin-puml](https://github.com/GitbookIO/plugin-puml)
 
-
-
 Then in your content:
 
 ```
@@ -15,4 +13,16 @@ Alice : hello
 ```
 
 The plugin will replace the`{% plantuml %}`by SVG images \(and PNG images for ebook output\).
+
+```
+This is a diagram:
+
+{% plantuml %}
+Bob-
+>
+Alice : hello
+{% endplantuml %}
+```
+
+
 
